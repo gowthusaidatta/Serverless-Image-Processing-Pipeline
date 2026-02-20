@@ -1,0 +1,38 @@
+### Terraform
+.terraform/
+terraform.tfstate*
+.terraform.lock.hcl
+*.zip
+crash.log
+override.tf*
+
+### Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+### AWS/GCP credentials and secrets
+*.json
+*.pem
+*.key
+aws_credentials*
+credentials*
+secrets*
+*.env
+*.secret
+submission.json  # Remove this line if submission.json must be committed
+
+### OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
